@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yummmmy</title>
+    <link rel="shortcut icon" href="./imgs/logo.png">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+     
+    <!-- Slide Navbar -->
+<div class="sideNan min-vh-100 position-fixed  top-0 d-flex">
+<div class="navTab d-flex flex-column min-vh-100 justify-content-between p-5 bg-black">
+
+
+    <div class="links">
+<ul class="list-unstyled">
+    <li class="py-3 position-relative"  onclick="showSearchInput();closeSideNav()">Search </li>
+    <li class="py-3 position-relative" onclick="getCategories();closeSideNav()">Categories </li>
+    <li class="py-3 position-relative" onclick="getArea();closeSideNav()">Area </li>
+    <li class="py-3 position-relative" onclick="getIngredient();closeSideNav()">Ingredients </li>
+    <li class="py-3 position-relative" onclick="showContact();closeSideNav()">Contact Us </li>
+</ul>
+    </div>
+
+    <div class="navFooter">
+<div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-solid fa-globe"></i>
+</div>
+
+<div class="footer">
+    <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+</div>
+    </div>
+</div>
+
+
+<div class="navHeasder d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+<img src="./imgs/logo.png" class="logo" alt="">
+<i class="fa-solid fa-bars fa-2x open-close-icon"></i>
+<div>
+    <i class="fa-solid fa-globe d-block" ></i>
+    <i class="fa-solid fa-share-nodes"></i>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- content -->
+
+
+<!-- <div class="container  ">
+    <div class="row py-5 g-3 " id="content">
+        <div class="loadingScreen position-fixed top-0 end-0 start-0 bottom-0 bg-black  justify-content-center align-items-center"> 
+            <i class="fa fa-spinner fa-spin fa-5x"></i>
+        </div>
+          
+        
+        </div>
+</div> -->
+
+<div class="container w-75" id="searchInputs">
+   
+</div>
+
+<div class="loadingScreen position-fixed top-0 end-0 start-0 bottom-0 bg-black  justify-content-center align-items-center"> 
+    <i class="fa fa-spinner fa-spin fa-5x"></i>
+</div>
+
+<div class="min-vh-100 position-relative">
+    <div class="inner-loading-screen top-0 start-0 end-0 bottom-0 justify-content-center align-items-center">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+    
+
+    <div class="container">
+        <div class="row py-5 g-4 " id="content">
+            
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
